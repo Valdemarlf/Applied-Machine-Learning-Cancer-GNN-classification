@@ -5,7 +5,16 @@ Data was found on the following Kaggle site, where kidney, oral and breast cance
 https://www.kaggle.com/datasets/obulisainaren/multi-cancer/data
 
 # 'Script' 
-Is the file containing image processing, inital cnn, auto encoding and more. Be aware, the images and code are demanding for the computer and may result in errors or 'dead kernel'. 
+This script includes the core pipeline for image preprocessing, an initial Convolutional Neural Network (CNN) implementation, autoencoding, and other exploratory components.
+
+# 'Shuffle-script'
+The same setup as 'Script', but with shuffle-group-split. This method helps prevent data leakage when multiple images originate from the same subject (e.g., the same patient), ensuring a more reliable model evaluation 
+
+# 'Final-Project'
+This project script includes the essential code for processing and analyzing kidney image data using deep learning techniques. It implements a basic Convolutional Neural Network (CNN) with data augmentation to enhance model performance. Additionally, the script integrates a ResNet-50 architecture and an autoencoder, both applied to the kidney dataset as well as to a separate oral image dataset. The code is structured for clarity and reproducibility, making it suitable for further development or research purposes.
 
 # 'Streamlined_cam' 
-The file contains code, which can analyse and show the most important feauteres based on the model and images. There are two different approaches Grad-Cam and Score-Cam. 
+This script visualizes model interpretability using two popular techniques: Grad-CAM and Score-CAM.
+It highlights the most influential regions of input images based on the trained CNN model, helping to understand and explain model predictions.
+
+Note: The code is computationally intensive and may cause kernel crashes or memory errors on less powerful machines.
