@@ -17,4 +17,7 @@ This project script includes the essential code for processing and analyzing kid
 This script visualizes model interpretability using two popular techniques: Grad-CAM and Score-CAM.
 It highlights the most influential regions of input images based on the trained CNN model, helping to understand and explain model predictions.
 
+# Results 
+The two folders contain results from the 'Streamlined_cam' and the file 'Model_summary[...]' is a result from the 'Script' code.
+
 Note: The code is computationally intensive and may cause kernel crashes or memory errors on less powerful machines.
