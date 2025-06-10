@@ -4,6 +4,8 @@
 Data was found on the following Kaggle site, where kidney, oral and breast cancer data sets were used.
 https://www.kaggle.com/datasets/obulisainaren/multi-cancer/data
 
+Note: The code is computationally intensive and may cause kernel crashes or memory errors on less powerful machines.
+
 # 'Script' 
 This script includes the core pipeline for image preprocessing, an initial Convolutional Neural Network (CNN) implementation, autoencoding, and other exploratory components.
 
@@ -20,4 +22,5 @@ It highlights the most influential regions of input images based on the trained 
 # Results 
 The two folders contain results from the 'Streamlined_cam' and the file 'Model_summary[...]' is a result from the 'Script' code.
 
-Note: The code is computationally intensive and may cause kernel crashes or memory errors on less powerful machines.
+# 'Exam project powerpoint' 
+The powerpoint tells the story of the model optimizastion and configurations for the different datasets. It shows the complete workflow, results and code in action. 
